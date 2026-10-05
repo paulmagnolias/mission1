@@ -1,6 +1,8 @@
-def table (n):
-    for i in range(1, 11):
-        print(n*i)
+def somme(liste):
+    total = 0
+    for nombre in liste:
+        total = total + nombre
+    return total
 
-table(7)
-table(3)
+print(somme([15, 25, 40, 70]))
+print(somme([1, 2, 3]))
