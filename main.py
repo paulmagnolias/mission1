@@ -7,7 +7,11 @@ elif age >= 65 and budget >= 50:
     print("Recommandation : un concert classique ou un bon restaurant.")
 elif budget >= 1000:
     print("Recommandation : un voyage.")
+elif age >= 18 and age <= 30 and budget >= 200 and budget <= 999:
+    print("Recommandation : un festival.")
 elif age >= 18 and budget >= 100:
     print("Recommandation : un week-end ou une expérience premium.")
+elif  age >= 18:
+    print("Recommandation : un cinéma ou un resto sympa.")
 else:
     print("Recommandation : un cinéma ou un resto sympa.")
