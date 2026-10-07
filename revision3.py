@@ -1,8 +1,8 @@
-def meilleure_note (liste):
-    meilleure = 0
-    for note in liste:
-        if note > meilleure:
-            meilleure = note
-    return meilleure
+def grosse_depenses (depenses):
+    RESULTAT = []
+    for depense in depenses:
+        if depense > 100:
+            RESULTAT.append(depense)
+    return RESULTAT
 
-print (meilleure_note([12, 8, 4, 9]))
+print(grosse_depenses([12, 150, 30, 200, 8]))
