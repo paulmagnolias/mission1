@@ -1,3 +1,4 @@
-12
-150
-30
+resto,12
+loyer,150
+essence,30
+resto,20
